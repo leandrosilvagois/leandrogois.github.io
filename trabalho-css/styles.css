@@ -1,0 +1,80 @@
+/* Estilização do corpo do html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilização do cabeçalho */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilização do menu */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+}
+
+/* Estilização dos items do menu */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+/* Estilização do conteúdo */
+.content {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilização do rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.topic {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.left {
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilização da imagem */
+img {
+    padding: 25px;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+ 
+/* Estilização do botão */
+input[type=submit] {
+  background-color: #0468aa;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
